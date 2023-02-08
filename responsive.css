@@ -1,0 +1,122 @@
+@media  (max-width:991px) {
+
+    #contact-container {
+        flex-wrap: wrap;
+        gap:30px;
+    }
+    #contact-container >div{
+        flex:unset;
+        width:100%;
+
+
+    }
+    .links{
+        gap: 0;
+        left: 0;
+    }
+
+
+}
+
+
+@media  (max-width:767px) {
+
+ .links{
+   left: 0;
+ }
+
+
+}
+
+@media screen and (max-width:480px) {
+    body{
+        font-size: 80%;
+    }
+    input#check {
+        display: none;
+    }
+    .nav-menu ul{
+        gap:0;
+    flex-direction: column;
+    justify-content:flex-start;
+    position: fixed;
+    left: -200px;
+    top:0;
+    width:200px;
+    background-color: #98bd56;
+     text-align:left;
+    height:100vh;
+    flex-wrap: wrap;
+    padding:0px;
+    padding-top:30px;
+    z-index: 99999;
+    transition: 0.3s ease-in-out;
+    
+        
+    }
+      
+
+    .checkbtn{
+        display: block;
+        
+    }
+
+    #check:checked ~ .nav-menu ul{
+        left: 0;
+    }
+
+    #check:checked ~ .nav-menu li{
+        padding:10px 10px;
+        border-bottom:1px solid #000;
+    }
+    
+
+    #banner{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .banner-desc-and-button{
+        height: 100%;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+
+
+        
+        
+    }
+    .banner-desc-and-button p{
+        max-width: 100%;
+    }
+    .service-desc{
+        padding: 0 1rem;
+        text-align: center;
+        line-height: 146%;
+    }
+    #buy-now-container{
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 1.3rem;
+        text-align: center;
+        padding: 1rem;
+       
+        
+    }
+    #buy-now-container p{
+        max-width: 100%;
+        
+        top: 1rem;
+        font-size: .9rem;
+    }
+    #buy-now-container a{
+       
+        bottom: 1rem;
+    }
+    #contact-container{
+        flex-direction: column;
+       
+    }
+   
+   
+}
