@@ -24,7 +24,9 @@
  .links{
    left: 0;
  }
-
+ .contact-container__logo{
+    text-align: center;
+}
 
 }
 
@@ -39,13 +41,13 @@
         gap:0;
     flex-direction: column;
     justify-content:flex-start;
-    position: fixed;
-    left: -200px;
-    top:0;
-    width:200px;
+    position: absolute;
+    left: -15.6rem;
+    top:7.2rem;
+    width:15.6rem;
     background-color: #98bd56;
      text-align:left;
-    height:100vh;
+    height:80vh;
     flex-wrap: wrap;
     padding:0px;
     padding-top:30px;
@@ -116,6 +118,9 @@
     #contact-container{
         flex-direction: column;
        
+    }
+    .contact-container__logo{
+        text-align: center;
     }
    
    
