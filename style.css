@@ -91,6 +91,7 @@ color: #fff;
     color: white;
     font-size: 1.1rem;
     max-width: 80%;
+    line-height: 2.4rem;
 }
 .banner-desc-and-button a{
     background-color: #98bd56;
@@ -161,23 +162,23 @@ color: #fff;
     font-weight: 400;
 }
 .service-desc{
-   line-height: 2.1rem;
+   line-height: 2.4rem;
     word-spacing: 4px;
-    padding: 0 4.5rem;
+    padding: 2rem 4.5rem;
     font-weight: 600;
 }
 #buy-now-container {
     background-image: url(images/buy-now-pic.jpg);
     position: relative;
     width: 100%;
-    padding: 3rem;
+    padding: 4rem 2rem;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 3.2rem 0;
+  
 }
 #buy-now-container p{ 
     width: 80%;
@@ -186,7 +187,11 @@ color: #fff;
 #buy-now-container a {
     color: white;
     background-color: #98bd56;
-    padding: 7px 20px;
+    padding: 7px 35px;
+     position: relative;
+    top: 1.3rem; 
+    right: 3rem;
+    
    
 }
 #buy-now-container a:hover{
@@ -195,14 +200,14 @@ color: #fff;
     border: 2px solid #98bd56;
     transition: .3s ease-in-out;
 }
-#contact-container{  
+#contact-container {
     background-color: #171b26;
     color: white;
     display: flex;
-    flex: wrap;
+ flex-wrap: wrap;
     gap: 4%;
     line-height: 35px;
-    padding: 25px;
+    padding: 25px 45px 25px 25px;
 }
 #contact-container > div{
     flex: 1;
@@ -210,6 +215,9 @@ color: #fff;
 .contact-container__logo{
   align-self: center;
    
+}
+.address p+p{
+    padding-top: 1.5rem;
 }
 address :nth-of-type(1){
     font-size: large;
@@ -221,26 +229,33 @@ address :nth-of-type(1){
     position: relative;
     left: 3.1rem;
 }
-
+.links ul{
+    padding-top: 1rem;
+}
 .links a{
     color: white;
     display: flex;
     align-items: center;
-    gap: .5rem;
+    gap: .7rem;
 }
 
-.newsletter{
-    
-   line-height: 25px;
-   padding: 10px 15px;
-   color: #b6aaaa;
-   background-color: #3b4359;
-   
+.newsletter {
+    line-height: 25px;
+    padding: 10px 15px;
+    color: #b6aaaa;
+    background-color: #3b4359;
+    max-width: 246px;
+    flex: unset !important;
 }
+.newsletter__box{
+   padding: 2rem;
+}
+
 .newsletter h3{
     color: #fff;
 }
 .newsletter p{
+   
     font-size: 0.8rem;
     margin-top: 1rem;
     
@@ -285,4 +300,8 @@ form  input[type="text"]{
 }
 .copyright span{
     color: #98bd56;
+}
+
+.address p{
+    font-style: normal;
 }
