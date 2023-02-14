@@ -1,3 +1,6 @@
+@media screen and (min-width:2000px){
+    
+}
 @media  (max-width:991px) {
 
     #contact-container {
@@ -34,20 +37,26 @@
     body{
         font-size: 80%;
     }
+    .logo{
+        position: relative;
+        float: left;
+        left: 3rem;
+    }
     input#check {
         display: none;
     }
+
     .nav-menu ul{
         gap:0;
     flex-direction: column;
     justify-content:flex-start;
     position: absolute;
     left: -15.6rem;
-    top:7.2rem;
+    top:5rem;
     width:15.6rem;
     background-color: #98bd56;
      text-align:left;
-    height:80vh;
+    height:100vh;
     flex-wrap: wrap;
     padding:0px;
     padding-top:30px;
@@ -60,6 +69,9 @@
 
     .checkbtn{
         display: block;
+        position: absolute;
+        top: 1.5rem;
+        right: 1rem;
         
     }
 
@@ -124,4 +136,15 @@
     }
    
    
+}
+
+@media screen and (max-width:380px){
+    
+    .logo img{
+        height: 7vh;
+    }
+    .checkbtn{
+        top: 15px;
+    }
+
 }
