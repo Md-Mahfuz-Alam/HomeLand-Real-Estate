@@ -115,9 +115,10 @@
     }
     .banner-desc-and-button p{
         max-width: 100%;
+        line-height: normal;
     }
     .service-desc{
-        padding: 0 1rem;
+        
         text-align: center;
         line-height: 146%;
     }
@@ -127,6 +128,7 @@
         gap: 1.3rem;
         text-align: center;
         padding: 1rem;
+        
        
         
     }
@@ -160,5 +162,7 @@
     .checkbtn{
         top: 15px;
     }
+    
 
 }
+

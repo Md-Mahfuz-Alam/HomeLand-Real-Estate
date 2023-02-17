@@ -160,11 +160,12 @@ color: #fff;
     line-height: 1.5rem;
     font-size: 0.7rem;
     font-weight: 400;
+    color: #22222295;
 }
 .service-desc{
    line-height: 2.4rem;
     word-spacing: 4px;
-    padding: 2rem 4.5rem;
+    padding: 1rem 4.5rem;
     font-weight: 600;
 }
 #buy-now-container {
@@ -178,6 +179,7 @@ color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 4rem 0;
   
 }
 #buy-now-container p{ 
