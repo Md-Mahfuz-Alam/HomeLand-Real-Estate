@@ -1,41 +1,55 @@
-@media screen and (min-width:2000px){
-   
-    
+@media screen and (max-width:1025px) {
+    .banner-desc-and-button p {
+        line-height: 1.9rem;
+    }
+
+    .service-desc {
+        line-height: 2rem;
+        padding: 1rem 1rem;
+        font-size: 1rem;
+        text-align: center;
+       
+    }
+
+    #buy-now-container p {
+        font-size: 1rem;
+        line-height: 2rem;
+        
+    }
 }
-@media screen and (max-width:991px) {
+@media screen and (max-width:992px) {
 
     .banner-desc-and-button {
         flex-direction: row;
-        justify-content:left;
+        justify-content: left;
         gap: .8rem;
     }
-    .banner-desc-and-button p{
+
+    .banner-desc-and-button p {
         line-height: normal;
-        
-    }
-    #contact-container {
-       
-        flex-wrap: nowrap; 
-         gap:20px; 
-        
-         
-    }
-    #contact-container >div{
-       
-        flex:unset;
-       
-      
-    
 
     }
-    
-    
-    #buy-now-container p{ 
+
+    #contact-container {
+
+        flex-wrap: nowrap;
+        gap: 20px;
+
+    }
+
+    #contact-container>div {
+
+        flex: unset;
+
+    }
+
+
+    #buy-now-container p {
         width: 70%;
     }
-    
-    
-    .links{
+
+
+    .links {
         gap: 0;
         left: 0;
     }
@@ -43,123 +57,147 @@
 
 }
 
-@media screen and (max-width:850px){
-    .carousel-inner img {
-       
-        height: 50vh;
-    }
+@media screen and (max-width:850px) {
     .banner-desc-and-button {
         flex-direction: column;
         gap: .5rem;
     }
-    .banner-desc-and-button p{
+
+    .banner-desc-and-button p {
         font-size: 1rem;
         padding: 0;
-        
+        text-align: center;
     }
-    .carousel-control-prev{
+
+    .carousel-control-prev {
         bottom: 1rem;
     }
-    .carousel-control-next{
-       bottom: 1rem;
+
+    .carousel-control-next {
+        bottom: 1rem;
     }
 }
-@media  (max-width:769px) {
 
-    .carousel-inner img {
+@media (max-width:768px) {
+
+
+    .links {
+        left: 0;
+    }
+
+    .contact-container__logo {
+        text-align: center;
+    }
+
+
+    .service-desc {
+        line-height: 2rem;
+        word-spacing: 3px;
+        padding: 0rem 1rem;
+        font-size: 1.1rem;
+
+
+    }
+
+    #buy-now-container p {
+
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    #buy-now-container a {
+
+        padding: 7px 35px;
+        position: relative;
+        top: 1.3rem;
+        right: 3rem;
+
+
+    }
+
+    #contact-container {
+        flex-direction: column;
+    }
+
+    #carousel-section, #carousel-section .carousel-item img {
+        height: 300px;
+        object-fit: cover;
+    }
+
+}
+
+
+@media screen and (max-width:570px){
+
+    #carousel-section, #carousel-section .carousel-item img {
+        height: 245px;
+      
+    }
+    .banner-desc-and-button p {
        
-        height: 60vh;
+        font-size: .9rem;
+        line-height: 1.4rem;
     }
- .links{
-   left: 0;
- }
- .contact-container__logo{
-    text-align: center;
+    .banner-desc-and-button a{
+       
+        padding: .3rem .8rem;
+        
+    }
 }
-
-
- .service-desc {
-    line-height: 2rem;
-    word-spacing: 3px;
-    padding: 0rem 4rem;
-    font-size: 1.1rem;
-   
-    
-} 
- #buy-now-container p{ 
-   
-    font-size: 1rem; 
-    line-height: 2rem;
-} 
- #buy-now-container a {
-   
-    padding: 7px 35px;
-     position: relative;
-    top: 1.3rem; 
-    right: 3rem;
-    
-   
-} 
-#contact-container{
-    flex-direction: column;
-}
-
-}
-
-
-
 @media screen and (max-width:480px) {
-    body{
+    body {
         font-size: 80%;
     }
-    .logo{
+
+    .logo {
         position: relative;
         float: left;
-        left: 3rem;
+        left: 1rem;
         padding-bottom: 1rem;
     }
+
     input#check {
         display: none;
     }
 
-    .nav-menu ul{
-        gap:0;
-    flex-direction: column;
-    justify-content:flex-start;
-    position: absolute;
-    left: -15.6rem;
-    top:5.3rem;
-    width:15.6rem;
-    background-color: #98bd56;
-     text-align:left;
-    height:100vh;
-    flex-wrap: wrap;
-    padding:0px;
-    padding-top:30px;
-    z-index: 99999;
-    transition: 0.3s ease-in-out;
-    
-        
-    }
-      
+    .nav-menu ul {
+        gap: 0;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: absolute;
+        left: -15.6rem;
+        top: 5.3rem;
+        width: 15.6rem;
+        background-color: #98bd56;
+        text-align: left;
+        height: 100vh;
+        flex-wrap: wrap;
+        padding: 0px;
+        padding-top: 30px;
+        z-index: 99999;
+        transition: 0.3s ease-in-out;
 
-    .checkbtn{
+
+    }
+
+
+    .checkbtn {
         display: block;
         position: absolute;
         top: 1.5rem;
         right: 1rem;
-        
+
     }
 
-    #check:checked ~ .nav-menu ul{
+    #check:checked~.nav-menu ul {
         left: 0;
     }
 
-    #check:checked ~ .nav-menu li{
-        padding:10px 10px;
-        border-bottom:1px solid #000;
+    #check:checked~.nav-menu li {
+        padding: 10px 10px;
+        border-bottom: 1px solid #000;
     }
-    
+
 
     /* #banner{
         display: flex;
@@ -167,84 +205,92 @@
        
     } */
     .carousel-inner img {
-       
+
         height: 40vh;
     }
-    .banner-desc-and-button{
-        
+
+    .banner-desc-and-button {
+
         text-align: center;
         justify-content: center;
         flex-direction: row;
         /* bottom: 6rem;    */
-        
+
     }
-    
-    .banner-desc-and-button p{
+
+    .banner-desc-and-button p {
         max-width: 100%;
         line-height: normal;
         font-size: .7rem;
     }
-    .service-desc{
-        
-        text-align: justify;
+
+    .service-desc {
         line-height: 146%;
         font-size: 1rem;
     }
-    #buy-now-container{
+
+    #buy-now-container {
         flex-direction: column;
         flex-wrap: wrap;
         gap: 1.3rem;
         text-align: center;
         padding: 1rem;
-        
-       
-        
+
+
+
     }
-    #buy-now-container p{
-        max-width: 100%;
+
+    #buy-now-container p {
+        width: 100%;
         line-height: 1.4rem;
         top: 1rem;
         font-size: 1rem;
     }
-    #buy-now-container a{
-       
+
+    #buy-now-container a {
+
         top: 0;
         left: .8rem;
     }
-    #contact-container{
+
+    #contact-container {
         flex-direction: column;
-        text-align: center;
-        
        
+
+
     }
-    #contact-container > div {
-        
-        align-self: center;
-    }
-    .links{
+
+ 
+
+    .links {
         /* left: 6rem; */
     }
-    .contact-container__logo{
+
+    .contact-container__logo {
         text-align: center;
     }
-   
-   
+
+ 
+
+
 }
 
-@media screen and (max-width:380px){
-    
-    .logo img{
+@media screen and (max-width:380px) {
+
+    .logo img {
         height: 7vh;
     }
-    .checkbtn{
+
+    .checkbtn {
         top: 15px;
     }
-    .nav-menu ul{
+
+    .nav-menu ul {
         top: 4.2rem;
     }
-    .banner-desc-and-button{
+
+    .banner-desc-and-button {
         padding: .4rem;
-    }    
+    }
 
 }
-
