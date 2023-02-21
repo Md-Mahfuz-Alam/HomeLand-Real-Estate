@@ -15,15 +15,21 @@
     }
     #contact-container {
        
-        flex-wrap: wrap;
-        gap:20px;
+        flex-wrap: nowrap; 
+         gap:20px; 
+        
+         
     }
     #contact-container >div{
+       
         flex:unset;
-        width:100%;
+       
+      
     
 
     }
+    
+    
     #buy-now-container p{ 
         width: 70%;
     }
@@ -72,20 +78,20 @@
 }
 
 
-/* .service-desc {
+ .service-desc {
     line-height: 2rem;
     word-spacing: 3px;
     padding: 0rem 4rem;
     font-size: 1.1rem;
    
     
-} */
-/* #buy-now-container p{ 
+} 
+ #buy-now-container p{ 
    
     font-size: 1rem; 
     line-height: 2rem;
-} */
-/* #buy-now-container a {
+} 
+ #buy-now-container a {
    
     padding: 7px 35px;
      position: relative;
@@ -93,8 +99,14 @@
     right: 3rem;
     
    
-} */
+} 
+#contact-container{
+    flex-direction: column;
 }
+
+}
+
+
 
 @media screen and (max-width:480px) {
     body{
@@ -176,6 +188,7 @@
         
         text-align: justify;
         line-height: 146%;
+        font-size: 1rem;
     }
     #buy-now-container{
         flex-direction: column;
@@ -189,9 +202,9 @@
     }
     #buy-now-container p{
         max-width: 100%;
-        
+        line-height: 1.4rem;
         top: 1rem;
-        font-size: .9rem;
+        font-size: 1rem;
     }
     #buy-now-container a{
        
@@ -200,7 +213,16 @@
     }
     #contact-container{
         flex-direction: column;
+        text-align: center;
+        
        
+    }
+    #contact-container > div {
+        
+        align-self: center;
+    }
+    .links{
+        /* left: 6rem; */
     }
     .contact-container__logo{
         text-align: center;
@@ -220,7 +242,9 @@
     .nav-menu ul{
         top: 4.2rem;
     }
-    
+    .banner-desc-and-button{
+        padding: .4rem;
+    }    
 
 }
 
