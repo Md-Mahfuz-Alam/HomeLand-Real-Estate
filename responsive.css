@@ -1,17 +1,22 @@
 @media screen and (min-width:2000px){
-    /* html{
-        font-size: 200%;
-    }
-    .logo img{
-        height: 7vh;
-    } */
+   
     
 }
-@media  (max-width:991px) {
+@media screen and (max-width:991px) {
 
+    .banner-desc-and-button {
+        flex-direction: row;
+        justify-content:left;
+        gap: .8rem;
+    }
+    .banner-desc-and-button p{
+        line-height: normal;
+        
+    }
     #contact-container {
+       
         flex-wrap: wrap;
-        gap:30px;
+        gap:20px;
     }
     #contact-container >div{
         flex:unset;
@@ -32,9 +37,33 @@
 
 }
 
+@media screen and (max-width:850px){
+    .carousel-inner img {
+       
+        height: 50vh;
+    }
+    .banner-desc-and-button {
+        flex-direction: column;
+        gap: .5rem;
+    }
+    .banner-desc-and-button p{
+        font-size: 1rem;
+        padding: 0;
+        
+    }
+    .carousel-control-prev{
+        bottom: 1rem;
+    }
+    .carousel-control-next{
+       bottom: 1rem;
+    }
+}
+@media  (max-width:769px) {
 
-@media  (max-width:767px) {
-
+    .carousel-inner img {
+       
+        height: 60vh;
+    }
  .links{
    left: 0;
  }
@@ -43,7 +72,28 @@
 }
 
 
-
+/* .service-desc {
+    line-height: 2rem;
+    word-spacing: 3px;
+    padding: 0rem 4rem;
+    font-size: 1.1rem;
+   
+    
+} */
+/* #buy-now-container p{ 
+   
+    font-size: 1rem; 
+    line-height: 2rem;
+} */
+/* #buy-now-container a {
+   
+    padding: 7px 35px;
+     position: relative;
+    top: 1.3rem; 
+    right: 3rem;
+    
+   
+} */
 }
 
 @media screen and (max-width:480px) {
@@ -54,6 +104,7 @@
         position: relative;
         float: left;
         left: 3rem;
+        padding-bottom: 1rem;
     }
     input#check {
         display: none;
@@ -65,7 +116,7 @@
     justify-content:flex-start;
     position: absolute;
     left: -15.6rem;
-    top:5rem;
+    top:5.3rem;
     width:15.6rem;
     background-color: #98bd56;
      text-align:left;
@@ -98,28 +149,32 @@
     }
     
 
-    #banner{
+    /* #banner{
         display: flex;
         flex-direction: column;
        
+    } */
+    .carousel-inner img {
+       
+        height: 40vh;
     }
     .banner-desc-and-button{
-        height: 100%;
+        
         text-align: center;
         justify-content: center;
-        flex-direction: column;
-
-
-        
+        flex-direction: row;
+        /* bottom: 6rem;    */
         
     }
+    
     .banner-desc-and-button p{
         max-width: 100%;
         line-height: normal;
+        font-size: .7rem;
     }
     .service-desc{
         
-        text-align: center;
+        text-align: justify;
         line-height: 146%;
     }
     #buy-now-container{
@@ -161,6 +216,9 @@
     }
     .checkbtn{
         top: 15px;
+    }
+    .nav-menu ul{
+        top: 4.2rem;
     }
     
 
