@@ -23,27 +23,25 @@
         <div class="logo">
           
                 <a href="index.html">
-                    <img src="images/logo.png" alt="">
+                    <img src="images/logo.png" alt="logo"/>
                 </a>
             
         </div>
 
       
     </header>
-    <nav>
+    <nav class="custom-nav">
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
             <i class="fa fa-bars" aria-hidden="true"></i> 
         </label>
-
-        <div class="nav-menu">
-            <ul>
+            <ul class="nav-menu">
                 <li> <a href="#banner">Home</a> </li>
                 <li> <a href="#buy-now-container">About</a> </li>
                 <li> <a href="#services">Properties</a> </li>
                 <li> <a href="#contact-container">Contact</a> </li>
             </ul>
-        </div>
+       
     </nav>
 
     
@@ -53,26 +51,26 @@
        
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="images/slider.jpg" class="d-block  " alt="...">
+                <img src="images/slider.jpg" class="d-block  " alt="slider-image1"/>
               </div>
               <div class="carousel-item">
-                <img src="images/slider.jpg" class="d-block w-40" alt="...">
+                <img src="images/slider.jpg" class="d-block w-40" alt="slider-image2"/>
               </div>
               <div class="carousel-item">
-                <img src="images/slider.jpg" class="d-block w-40" alt="...">
+                <img src="images/slider.jpg" class="d-block w-40" alt="slider-image3"/>
               </div>
             </div>
             <button class="carousel-control-prev "  type="button" data-bs-target="#carousel-indicators" data-bs-slide="prev">
-              <span ><img src="images/left-arrow.png" alt=""></span>
+              <span ><img src="images/left-arrow.png" alt="left-slider"/></span>
              
             </button>
             <button class="carousel-control-next"   type="button" data-bs-target="#carousel-indicators" data-bs-slide="next">
-              <span  ><img src="images/right-arrow.png" alt=""></span>
+              <span  ><img src="images/right-arrow.png" alt="right-slider"/></span>
               
             </button>
          
-          <div id="banner">
-      
+          
+            
             <div class="banner-desc-and-button">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto officia amet perferendis nobis
                     sequi, minus corrupti iis, explicabo nihil. Lorem, ipsum dolor sit amet cons Lorem, ipsum dolor sit amet
@@ -80,13 +78,13 @@
     
                 <a href="#">More Details</a>
             </div>
-        </div>
-    </div>
+         
+       </div>
        </section>
        <section id="services">
 
          <div class="service-box">
-            <div class="service-box__icon"> <img src="images/icon-1.jpg" alt=""></div>
+            <div class="service-box__icon"> <img src="images/icon-1.jpg" alt="service-icon1"/></div>
             <h6>
                 Making Money
             </h6>
@@ -95,7 +93,7 @@
             <a href="#">Read More</a>
          </div>
          <div class="service-box">
-            <div class="service-box__icon"> <img src="images/icon-2.jpg" alt="" ></div>
+            <div class="service-box__icon"> <img src="images/icon-2.jpg" alt="service-icon2" /></div>
             <h6>
                 Easy to Customize
             </h6>
@@ -104,7 +102,7 @@
             <a href="">Read More</a>
          </div>
          <div class="service-box">
-            <div class="service-box__icon"> <img src="images/icon-3.jpg" alt="" ></div>
+            <div class="service-box__icon"> <img src="images/icon-3.jpg" alt="service-icon3" /></div>
             <h6>
                 Moving Let Us help
             </h6>
@@ -114,7 +112,7 @@
          </div>
 
          <div class="service-box">
-            <div class="service-box__icon"> <img src="images/icon-2.jpg" alt="" ></div>
+            <div class="service-box__icon"> <img src="images/icon-2.jpg" alt="service-icon4" ></div>
             <h6>
                 Easy to Customize
             </h6>
@@ -130,26 +128,31 @@
     </section>
 
     <section id="buy-now-container">
+      
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quasi dolorum. Lorem, ipsum dolor.
-            architecto ipsa illum aliquam facilis! Expe Lorem, ipsum dolor.!</p>
+            architecto ipsa illum aliquam facilis! kjsd,ds!</p>
         <a href="">Buy Now</a>
+   
+      
     </section>
 
     <footer >
        <div id="contact-container">
         <div class="contact-container__logo">
             <div>
-                <img src="images/logo.png" alt="">
+                <img src="images/logo.png" alt="logo-image"/>
             </div>
         </div>
         <div class="address">
+            <p>ADDRESS</p>
             <address>
-                <p>ADDRESS</p>
-                <p>108 Villa Precy Subdivision Kumintang ilaya Batanges, Phillipines </p>
+                
+                108 Villa Precy Subdivision Kumintang ilaya Batanges, Phillipines 
             </address>
         </div>
         <div class="links">
-            <p>LINKS</p>
+         <p>LINKS</p>
+         <nav>
             <ul>
                 <li><a href=""><i class="fa fa-caret-right" aria-hidden="true"></i>Register</a></li>
                 <li><a href=""><i class="fa fa-caret-right" aria-hidden="true"></i>Log in</a></li>
@@ -158,6 +161,7 @@
                 <li><a href=""><i class="fa fa-caret-right" aria-hidden="true"></i>Comment RSS
                     </a></li>
             </ul>
+           </nav>
 
         </div>
         <div class="newsletter">
@@ -174,8 +178,9 @@
         </div>
       </div>
         <div class="copyright">
-            <div></div>
-            <p>Copyright &copy; <span>Homeland</span> 2019</p>
+          
+            <div ><!-- This div is for the underline  --></div>
+            <span>Copyright &copy; <span>Homeland</span> 2019</span>
         </div>
 
     </footer>

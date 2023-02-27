@@ -1,7 +1,29 @@
+ @media screen and (min-width:1605px){
+    #buy-now-container{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+   
+         #buy-now-container p {
+            max-width: 1140px;
+            text-align: center;
+        } 
+        .banner-desc-and-button{
+            flex-direction: column;
+           
+        }
+        .banner-desc-and-button p{
+            max-width: 1140px;
+            text-align: center;
+        }
+       
+    
+}  
 @media screen and (max-width:1025px) {
     .banner-desc-and-button p {
         line-height: 1.9rem;
     }
+   
 
     .service-desc {
         line-height: 2rem;
@@ -160,7 +182,7 @@
         display: none;
     }
 
-    .nav-menu ul {
+    .nav-menu  {
         gap: 0;
         flex-direction: column;
         justify-content: flex-start;
@@ -189,11 +211,12 @@
 
     }
 
-    #check:checked~.nav-menu ul {
+    #check:checked~.nav-menu  {
         left: 0;
     }
 
     #check:checked~.nav-menu li {
+
         padding: 10px 10px;
         border-bottom: 1px solid #000;
     }
@@ -260,12 +283,6 @@
 
     }
 
- 
-
-    .links {
-        /* left: 6rem; */
-    }
-
     .contact-container__logo {
         text-align: center;
     }
@@ -285,7 +302,7 @@
         top: 15px;
     }
 
-    .nav-menu ul {
+    .nav-menu  {
         top: 4.2rem;
     }
 

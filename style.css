@@ -30,23 +30,23 @@ header{
     
 }
 
-nav ul{ 
+.custom-nav ul{ 
     display: flex;
     justify-content: center;
     gap: 5%;
     margin-bottom: 0;
 
 }
-nav ul li{
+.custom-nav ul li{
     font-weight:600;
     font-size: large;
     padding: 1.7rem .8rem ;
     transition: .5s ease-in-out;  
 }
-nav ul li:hover{
+.custom-nav ul li:hover{
     background-color: #98bd56;   
 }
-nav ul li:hover a{
+.custom-nav ul li:hover a{
 color: #fff;
 }
 .checkbtn{
@@ -61,12 +61,7 @@ color: #fff;
 #check{
     display: none;
 }
-#banner{
-    position: relative;
-    width: 100%;
-    
-     
-}
+
 .carousel-control-prev{
     width: 1.3rem;
     left: 1rem;
@@ -120,12 +115,13 @@ button span img{
    transition: .3s ease-in-out;
 }
 
-#services{
-    margin-top: 3.1rem;
+#services {
     display: flex;
     flex-wrap: wrap;
     gap: 2.5rem;
-    justify-content:center;   
+    justify-content: center;
+    max-width: 1140px;
+    margin: 3.1rem auto 0rem auto;
 }
 .service-box{
     position: relative;
@@ -187,6 +183,7 @@ button span img{
     font-weight: 600;
     
 }
+
 #buy-now-container {
     background-image: url(images/buy-now-pic.jpg);
     position: relative;
@@ -201,6 +198,8 @@ button span img{
     margin: 4rem 0;
   
 }
+
+
 #buy-now-container p{ 
     width: 80%;
     font-size: 1.3rem; 
@@ -222,6 +221,9 @@ button span img{
     border: 2px solid #98bd56;
     transition: .3s ease-in-out;
 }
+footer{
+    background-color: #171b26;
+}
 #contact-container {
     background-color: #171b26;
     color: white;
@@ -231,15 +233,18 @@ button span img{
     line-height: 35px;
     padding: 25px;
     justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 .contact-container__logo{
   align-self: center;
    
 }
-.address p+p{
-    padding-top: 1.5rem;
+.address p{
+    padding-bottom: 1.5rem;
     font-size: large;
+    font-weight: 800;
 }
 address :nth-of-type(1) {
     font-size: large;
@@ -319,7 +324,7 @@ form  input[type="text"] {
 }
 
 
-.copyright span{
+.copyright span span{
     color: #98bd56;
 }
 .copyright div{
