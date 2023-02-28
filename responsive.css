@@ -181,6 +181,9 @@
     input#check {
         display: none;
     }
+    .custom-nav ul{
+        justify-content: flex-start;
+    }
 
     .nav-menu  {
         gap: 0;
