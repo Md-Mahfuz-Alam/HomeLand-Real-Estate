@@ -289,7 +289,10 @@
     .contact-container__logo {
         text-align: center;
     }
-
+    .links a{
+        font-size: small;
+        
+    }
  
 
 

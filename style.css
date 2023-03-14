@@ -324,8 +324,9 @@ form  input[type="text"] {
 }
 
 
-.copyright span span{
+.copyright span mark{
     color: #98bd56;
+    background-color: transparent;
 }
 
 .copyright div{
