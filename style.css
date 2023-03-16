@@ -331,6 +331,7 @@ form  input[type="text"] {
 
 .copyright div{
     background-color: #fff;
+   
     height: 1px;
    margin-bottom: 1rem;
 
@@ -351,6 +352,8 @@ form input[type="text"]::placeholder{
     width: 242px;
     max-width: 100%;
 }
+
+
 
 @media screen and (min-width:1605px){
     #buy-now-container{
