@@ -479,7 +479,7 @@ form input[type="text"]::placeholder {
     width: 15.6rem;
     background-color: #98bd56;
     text-align: left;
-    height: 100vh;
+    height: 60vh;
     flex-wrap: wrap;
     padding: 0px;
     padding-top: 30px;
@@ -497,7 +497,7 @@ form input[type="text"]::placeholder {
   }
   #check:checked ~ .nav-menu li {
     padding: 10px 10px;
-    border-bottom: 1px solid #000;
+    
   }
   #carousel-section {
     margin-bottom: 6rem;
