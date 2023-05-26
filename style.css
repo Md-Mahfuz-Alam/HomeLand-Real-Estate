@@ -1,17 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300;1,400;1,600&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
 body {
   font-family: "Poppins", sans-serif;
 }
+
 a {
   text-decoration: none;
   color: black;
 }
+
 ul {
   padding: 0;
 }
@@ -25,32 +29,39 @@ h6,
 p {
   margin: 0;
 }
+
 li {
   list-style: none;
 }
+
 header {
   text-align: center;
   padding: 3% 0 2% 0;
   background-color: #fff;
 }
+
 .custom-nav ul {
   display: flex;
   justify-content: center;
   gap: 5%;
   margin-bottom: 0;
 }
+
 .custom-nav ul li {
   font-weight: 600;
   font-size: large;
   padding: 1.7rem 0.8rem;
   transition: 0.5s ease-in-out;
 }
+
 .custom-nav ul li:hover {
   background-color: #98bd56;
 }
+
 .custom-nav ul li:hover a {
   color: #fff;
 }
+
 .checkbtn {
   color: #0f0e0e;
   font-size: 1.5rem;
@@ -59,6 +70,7 @@ header {
   display: none;
   z-index: 10;
 }
+
 #check {
   display: none;
 }
@@ -67,6 +79,7 @@ header {
   width: 1.3rem;
   left: 1rem;
 }
+
 .carousel-control-next {
   width: 1.3rem;
   right: 1rem;
@@ -89,12 +102,14 @@ button span img {
   align-items: center;
   width: 100%;
 }
+
 .banner-desc-and-button p {
   color: white;
   font-size: 1.1rem;
   max-width: 80%;
   line-height: 2.4rem;
 }
+
 .banner-desc-and-button a {
   background-color: #98bd56;
   color: white;
@@ -103,6 +118,7 @@ button span img {
   margin-right: 1rem;
   z-index: 100;
 }
+
 .banner-desc-and-button a:hover {
   background-color: transparent;
   color: #98bd56;
@@ -118,6 +134,7 @@ button span img {
   max-width: 1140px;
   margin: 3.1rem auto 0rem auto;
 }
+
 .service-box {
   position: relative;
   text-align: center;
@@ -128,6 +145,7 @@ button span img {
   width: 18.75rem;
   padding: 1.3rem;
 }
+
 .service-box__icon {
   background-color: #fff;
   margin: -3.5rem auto 0 auto;
@@ -140,11 +158,13 @@ button span img {
   border: 3px solid #98bd56;
   box-shadow: 0px 0px 0px 4px #80808036;
 }
+
 .service-box h6 {
   margin: 1.55rem;
   font-size: 1rem;
   font-weight: 900;
 }
+
 .service-box a {
   background-color: #98bd56;
   color: white;
@@ -154,19 +174,23 @@ button span img {
   margin-top: 1.3rem;
   padding: 0.6rem;
 }
+
 .service-box a:hover {
   background-color: transparent;
   border: 2px solid #98bd56;
   color: #98bd56;
   transition: 0.3s ease-in-out;
 }
-.service-box p,article {
+
+.service-box p,
+article {
   margin-top: 0.8rem;
   line-height: 1.5rem;
   font-size: 0.7rem;
   font-weight: 400;
   color: #22222295;
 }
+
 .service-desc {
   line-height: 3rem;
   word-spacing: 4px;
@@ -174,6 +198,7 @@ button span img {
   font-size: 1.2rem;
   font-weight: 600;
 }
+
 #buy-now-container {
   background-image: url(images/buy-now-pic.jpg);
   position: relative;
@@ -187,11 +212,13 @@ button span img {
   align-items: center;
   margin: 4rem 0;
 }
+
 #buy-now-container p {
   width: 80%;
   font-size: 1.3rem;
   line-height: 2.5rem;
 }
+
 #buy-now-container a {
   color: white;
   background-color: #98bd56;
@@ -200,15 +227,18 @@ button span img {
   top: 1.3rem;
   right: 3rem;
 }
+
 #buy-now-container a:hover {
   background-color: transparent;
   color: #98bd56;
   border: 2px solid #98bd56;
   transition: 0.3s ease-in-out;
 }
+
 footer {
   background-color: #171b26;
 }
+
 #contact-container {
   background-color: #171b26;
   color: white;
@@ -221,25 +251,31 @@ footer {
   max-width: 1140px;
   margin: 0 auto;
 }
+
 .contact-container__logo {
   align-self: center;
 }
+
 .address p {
   padding-bottom: 1.5rem;
   font-size: large;
   font-weight: 800;
 }
+
 address :nth-of-type(1) {
   font-size: large;
   font-weight: 1000;
 }
+
 .links {
   white-space: nowrap;
 }
+
 .links p {
   font-size: large;
   font-weight: 900;
 }
+
 .links ul {
   padding-top: 1rem;
 }
@@ -251,25 +287,29 @@ address :nth-of-type(1) {
   gap: 0.7rem;
   font-size: large;
 }
+
 .newsletter {
   padding: 10px 15px;
   width: 250px;
   background-color: #3b4359;
   max-width: 100%;
 }
+
 .newsletter p {
   color: #b6aaaa;
   font-size: 0.8rem;
 }
-.newletter__box p + p {
+
+.newletter__box p+p {
   line-height: 220%;
 }
 
-.newletter__box > :first-child {
+.newletter__box> :first-child {
   font-size: large;
   font-weight: 900;
   color: #fff;
 }
+
 form input {
   width: 100%;
   padding: 0px 10px;
@@ -277,6 +317,7 @@ form input {
   color: #fff;
   border: none;
 }
+
 form input[type="text"] {
   color: #000;
   padding: 3px 10px;
@@ -286,31 +327,37 @@ form input[type="text"] {
   background-color: #98bd56;
   border: 2px solid #98bd56;
 }
+
 .submit-btn:hover {
   background-color: transparent;
   cursor: pointer;
   border: 2px solid #98bd56;
   color: #98bd56;
 }
+
 .copyright {
   background-color: #171b26;
   text-align: center;
   color: #fff;
   padding: 1rem;
 }
+
 .copyright span mark {
   color: #98bd56;
   background-color: transparent;
 }
+
 .copyright hr {
   background-color: #fff;
 
   height: 1px;
   margin-bottom: 1rem;
 }
+
 .address p {
   font-style: normal;
 }
+
 .carousel-inner img {
   width: 100%;
 }
@@ -318,6 +365,7 @@ form input[type="text"] {
 form input[type="text"]::placeholder {
   font-size: 14px;
 }
+
 .address {
   width: 242px;
   max-width: 100%;
@@ -333,142 +381,192 @@ form input[type="text"]::placeholder {
     max-width: 1140px;
     text-align: center;
   }
+
   .banner-desc-and-button {
     flex-direction: column;
   }
+
   .banner-desc-and-button p {
     max-width: 1140px;
     text-align: center;
   }
 }
+
 @media screen and (max-width: 1025px) {
   .banner-desc-and-button p {
     line-height: 1.9rem;
   }
+
   .service-desc {
     line-height: 2rem;
     padding: 1rem 1rem;
     font-size: 1rem;
     text-align: center;
   }
+
   #buy-now-container p {
     font-size: 1rem;
     line-height: 2rem;
   }
 }
+
 @media screen and (max-width: 992px) {
   .banner-desc-and-button {
     flex-direction: row;
     justify-content: left;
     gap: 0.8rem;
   }
+
   .banner-desc-and-button p {
     line-height: normal;
   }
+
   #contact-container {
     flex-wrap: nowrap;
     gap: 20px;
   }
-  #contact-container > div {
+
+  #contact-container>div {
     flex: unset;
   }
+
   #buy-now-container p {
     width: 70%;
   }
+
   .links {
     gap: 0;
     left: 0;
   }
 }
+
 @media screen and (max-width: 850px) {
   .banner-desc-and-button {
     flex-direction: column;
     gap: 0.5rem;
   }
+
   .banner-desc-and-button p {
     font-size: 1rem;
     padding: 0;
     text-align: center;
   }
+
   .carousel-control-prev {
     bottom: 1rem;
   }
+
   .carousel-control-next {
     bottom: 1rem;
   }
+
+  .newletter__box p+p {
+    line-height: 139%;
+  }
+
+  .links ul {
+
+    line-height: 51px;
+  }
+
+  address {
+    line-height: 39px;
+  }
+
+  #contact-container {
+    padding: 25px 25px 0 25px
+  }
 }
 
-@media (max-width: 769px) {
+@media (max-width: 768px) {
   #contact-container {
     align-items: center;
   }
+
   .links ul {
     position: relative;
     right: 3rem;
   }
+
   .links p {
     text-align: center;
   }
+
   .address p {
     text-align: center;
   }
+
   .contact-container__logo {
     text-align: center;
   }
+
   .service-desc {
     line-height: 2rem;
     word-spacing: 3px;
     padding: 0rem 1rem;
     font-size: 1.1rem;
   }
+
   #buy-now-container p {
     font-size: 1rem;
     line-height: 2rem;
   }
+
   #buy-now-container a {
     padding: 7px 35px;
     position: relative;
     top: 1.3rem;
     right: 3rem;
   }
+
   #contact-container {
     flex-direction: column;
   }
+
   #carousel-section,
   #carousel-section .carousel-item img {
     height: 300px;
     object-fit: cover;
   }
 }
+
 @media screen and (max-width: 570px) {
+
   #carousel-section,
   #carousel-section .carousel-item img {
     height: 245px;
   }
+
   .banner-desc-and-button p {
     font-size: 0.9rem;
     line-height: 1.4rem;
   }
+
   .banner-desc-and-button a {
     padding: 0.3rem 0.8rem;
   }
 }
+
 @media screen and (max-width: 480px) {
   body {
     font-size: 80%;
   }
+
   .logo {
     position: relative;
     float: left;
     left: 1rem;
     padding-bottom: 1rem;
   }
+
   input#check {
     display: none;
   }
+
   .custom-nav ul {
     justify-content: flex-start;
   }
+
   .nav-menu {
     gap: 0;
     flex-direction: column;
@@ -486,39 +584,48 @@ form input[type="text"]::placeholder {
     z-index: 99999;
     transition: 0.3s ease-in-out;
   }
+
   .checkbtn {
     display: block;
     position: absolute;
     top: 1.5rem;
     right: 1rem;
   }
-  #check:checked ~ .nav-menu {
+
+  #check:checked~.nav-menu {
     left: 0;
   }
-  #check:checked ~ .nav-menu li {
+
+  #check:checked~.nav-menu li {
     padding: 10px 10px;
-    
+
   }
+
   #carousel-section {
     margin-bottom: 6rem;
   }
+
   .carousel-inner img {
     height: 40vh;
   }
+
   .banner-desc-and-button {
     text-align: center;
     justify-content: center;
     flex-direction: row;
   }
+
   .banner-desc-and-button p {
     max-width: 100%;
     line-height: normal;
     font-size: 0.7rem;
   }
+
   .service-desc {
     line-height: 146%;
     font-size: 1rem;
   }
+
   #buy-now-container {
     flex-direction: column;
     flex-wrap: wrap;
@@ -526,41 +633,50 @@ form input[type="text"]::placeholder {
     text-align: center;
     padding: 1rem;
   }
+
   #buy-now-container p {
     width: 100%;
     line-height: 1.4rem;
     top: 1rem;
     font-size: 1rem;
   }
+
   #buy-now-container a {
     top: 0;
     left: 0.8rem;
   }
+
   #contact-container {
     flex-direction: column;
   }
+
   .contact-container__logo {
     text-align: center;
   }
+
   .links a {
     font-size: small;
   }
+
   .links ul {
     right: 4rem;
   }
 }
+
 @media screen and (max-width: 380px) {
   .logo img {
     height: 7vh;
   }
+
   .checkbtn {
     top: 15px;
   }
+
   .nav-menu {
     top: 4.2rem;
   }
+
   .banner-desc-and-button {
     padding: 0.4rem;
   }
 }
-
