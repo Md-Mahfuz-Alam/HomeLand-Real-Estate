@@ -524,6 +524,10 @@ form input[type="text"]::placeholder {
     height: 300px;
     object-fit: cover;
   }
+  .links ul {
+   
+    right: 0rem;
+}
 }
 
 @media screen and (max-width: 570px) {
