@@ -519,10 +519,6 @@ form input[type="text"]::placeholder {
     right: 3rem;
   }
 
-  #contact-container {
-    flex-direction: column;
-  }
-
   #carousel-section,
   #carousel-section .carousel-item img {
     height: 300px;
