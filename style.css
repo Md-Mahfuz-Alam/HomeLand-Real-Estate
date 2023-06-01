@@ -483,7 +483,7 @@ form input[type="text"]::placeholder {
     align-items: center;
   }
 
-  
+
 
   .links p {
     text-align: center;
@@ -521,7 +521,17 @@ form input[type="text"]::placeholder {
     height: 300px;
     object-fit: cover;
   }
- 
+
+}
+
+@media screen and (max-width: 745px) {
+  #contact-container {
+    flex-direction: column;
+  }
+
+  .newletter__box p+p {
+    line-height: 269%;
+  }
 }
 
 @media screen and (max-width: 570px) {
@@ -539,6 +549,10 @@ form input[type="text"]::placeholder {
   .banner-desc-and-button a {
     padding: 0.3rem 0.8rem;
   }
+  #buy-now-container a {
+    right: -1rem;
+}
+
 }
 
 @media screen and (max-width: 480px) {
@@ -572,7 +586,6 @@ form input[type="text"]::placeholder {
     background-color: #98bd56;
     text-align: left;
     height: 274px;
-    flex-wrap: wrap;
     padding: 0px;
     padding-top: 14px;
     z-index: 99999;
@@ -589,11 +602,10 @@ form input[type="text"]::placeholder {
   #check:checked~.nav-menu {
     left: 0;
   }
-
-  #check:checked~.nav-menu li {
+  .custom-nav ul li{
     padding: 10px 10px;
-
   }
+
 
   #carousel-section {
     margin-bottom: 6rem;
@@ -647,6 +659,9 @@ form input[type="text"]::placeholder {
   .contact-container__logo {
     text-align: center;
   }
+  address {
+    text-align: center;
+}
 
   .links a {
     font-size: small;
@@ -667,7 +682,7 @@ form input[type="text"]::placeholder {
   }
 
   .nav-menu {
-    top: 4.2rem;
+    top: 72px;
   }
 
   .banner-desc-and-button {
