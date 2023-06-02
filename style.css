@@ -552,6 +552,9 @@ form input[type="text"]::placeholder {
   #buy-now-container a {
     right: -1rem;
 }
+address {
+  text-align: center;
+}
 
 }
 
