@@ -110,7 +110,7 @@ button span img {
   line-height: 2.4rem;
 }
 
-.banner-desc-and-button a {
+.banner-desc-and-button button {
   background-color: #98bd56;
   color: white;
   border: 2px solid #98bd56;
@@ -119,7 +119,7 @@ button span img {
   z-index: 100;
 }
 
-.banner-desc-and-button a:hover {
+.banner-desc-and-button button:hover {
   background-color: transparent;
   color: #98bd56;
   border: 2px solid #98bd56;
@@ -165,7 +165,7 @@ button span img {
   font-weight: 900;
 }
 
-.service-box a {
+.service-box button {
   background-color: #98bd56;
   color: white;
   border: 2px solid #fff;
@@ -175,7 +175,7 @@ button span img {
   padding: 0.6rem;
 }
 
-.service-box a:hover {
+.service-box button:hover {
   background-color: transparent;
   border: 2px solid #98bd56;
   color: #98bd56;
@@ -226,6 +226,7 @@ article {
   position: relative;
   top: 1.3rem;
   right: 3rem;
+  cursor: pointer;
 }
 
 #buy-now-container a:hover {
@@ -558,7 +559,7 @@ address {
 
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 570px) {
   body {
     font-size: 80%;
   }
