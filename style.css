@@ -324,12 +324,17 @@ form input[type="text"] {
   padding: 3px 10px;
 }
 
-.submit-btn {
+.submit-button {
+  width: 100%;
+  padding: 0px 10px;
+  margin: 0.25rem 0;
+  color: #fff;
+  border: none;
   background-color: #98bd56;
   border: 2px solid #98bd56;
 }
 
-.submit-btn:hover {
+.submit-button:hover {
   background-color: transparent;
   cursor: pointer;
   border: 2px solid #98bd56;
@@ -550,13 +555,45 @@ form input[type="text"]::placeholder {
   .banner-desc-and-button a {
     padding: 0.3rem 0.8rem;
   }
+
   #buy-now-container a {
     right: -1rem;
-}
-address {
-  text-align: center;
+  }
+
+  address {
+    text-align: center;
+  }
+
 }
 
+@media only screen and (max-width: 376px) and (min-width: 375px) {
+  .nav-menu {
+    top: 74px;
+  }
+}
+
+@media only screen and (max-width: 361px) and (min-width: 359px) {
+  .nav-menu {
+    top: 78px;
+  }
+}
+
+@media only screen and (max-width: 394px) and (min-width: 389px) {
+  .nav-menu {
+    top: 83px;
+  }
+}
+
+@media only screen and (max-width: 541px) and (min-width: 539px) {
+  .nav-menu {
+    top: 88px;
+  }
+}
+
+@media only screen and (max-width: 281px) and (min-width: 279px) {
+  .nav-menu {
+    top: 70px;
+  }
 }
 
 @media screen and (max-width: 570px) {
@@ -606,7 +643,8 @@ address {
   #check:checked~.nav-menu {
     left: 0;
   }
-  .custom-nav ul li{
+
+  .custom-nav ul li {
     padding: 10px 10px;
   }
 
@@ -663,9 +701,10 @@ address {
   .contact-container__logo {
     text-align: center;
   }
+
   address {
     text-align: center;
-}
+  }
 
   .links a {
     font-size: small;
